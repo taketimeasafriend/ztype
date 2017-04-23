@@ -5,27 +5,12 @@ body {
     margin: auto;
 }
 
-button {
-    width: 130px;
-    height: 30px;
-    margin: 10px 30px 0px 30px;
-    border-radius: 5px;
-    background-color: #eee;
-    font-size: 0.9em;
-}
-
-canvas {
-    background-color: #fff;
-    padding-bottom: 10px;
-    display: block;
-}
-
-#sudoku {
+#canvas {
     margin-left: auto;
     margin-right: auto;
-    width: 945px;
-    height: 900px;
-    background-color: #fff;
+    width: 1000px;
+    height: 800px;
+    background-color: #ddd;
     padding: 10px;
     border-radius: 12px;
 }
@@ -55,38 +40,20 @@ canvas {
     font-size: 15px;
 }
 
-.messageout {
-    margin-top: 20px;
-    text-align: center;
-}
-
-#help {
-    top: 60px;
-    font-size: 10px;
-    width: 220px;
+.info {
     float: right;
+    width: 200px;
+    margin: 30px 30px 0 20px;
+    padding: 5px 20px;
+    font-size: 0.85em;
+    border: 1px solid #000;
+    border-radius: 10px;
 }
 
-#main {
-    top: 60px;
-    padding: 10px;
-    float: left;
-}
-
-#help li {
-    padding-bottom: 6px;
-}
-
-h2 {
-    color: #444444;
+.info h1 {
     text-align: center;
 }
 
-td.help {
-    border-left: 1px dashed #000;
-}
-
-td.help li {
-    padding-bottom: 6px;
-    font-size: 0.8em;
+.ztype {
+    margin: 20px 0 0 100px;
 }
