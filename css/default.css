@@ -1,0 +1,92 @@
+body {
+    font-size: 0.9em;
+    font-family: verdana, arial, sans-serif;
+    background-color: #000;
+    margin: auto;
+}
+
+button {
+    width: 130px;
+    height: 30px;
+    margin: 10px 30px 0px 30px;
+    border-radius: 5px;
+    background-color: #eee;
+    font-size: 0.9em;
+}
+
+canvas {
+    background-color: #fff;
+    padding-bottom: 10px;
+    display: block;
+}
+
+#sudoku {
+    margin-left: auto;
+    margin-right: auto;
+    width: 945px;
+    height: 900px;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 12px;
+}
+
+.banner {
+    text-align: center;
+}
+
+.myButton {
+    background-color: #222;
+    -moz-border-radius: 28px;
+    -webkit-border-radius: 28px;
+    border-radius: 12px;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 14px;
+    padding: 12px;
+    text-decoration: none;
+    width: 150px;
+    line-height: 14px;
+}
+
+.myButton:hover {
+    background-color: #44c767;
+    font-size: 15px;
+}
+
+.messageout {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#help {
+    top: 60px;
+    font-size: 10px;
+    width: 220px;
+    float: right;
+}
+
+#main {
+    top: 60px;
+    padding: 10px;
+    float: left;
+}
+
+#help li {
+    padding-bottom: 6px;
+}
+
+h2 {
+    color: #444444;
+    text-align: center;
+}
+
+td.help {
+    border-left: 1px dashed #000;
+}
+
+td.help li {
+    padding-bottom: 6px;
+    font-size: 0.8em;
+}
